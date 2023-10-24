@@ -1,5 +1,10 @@
 class Card {
-  constructor(public rank: string, public suit: string) {}
+  rank: string;
+  suit: string;
+  constructor(rank: string, suit: string) {
+    this.suit = suit;
+    this.rank = rank;
+  }
 }
 
 export default Card;
